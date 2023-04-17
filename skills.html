@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>MP Softwares - Portfolio</title>
+</head>
+<body>
+
+  <div id="container">
+  
+    <header>
+      <a href="index.html"><img src="images/mps_logo.png" alt="MP Softwares Logo"></a>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="banner">
+        <img src="images/skills.jpeg" alt="skill banner image" class="desktop" width="100%" height="400px">
+      </div>
+
+    <main class="flex-container">
+        <article>
+        <div class="container">
+                    <h1 >Skills & Certification</h1>
+                    <p >Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum clita dolor duo clita sit.</p>
+                    <h3 >My Skills</h3>
+                    <div >
+                        <div class="skill-container">
+                            <div class="skill-item-container">                                                                  
+                                <div class="progress-container">
+                                    <div class="progress-bar-iOS"></div>
+                                </div>                     
+                                <div>
+                                    <h6 class="left" style="float: left;">iOS</h6>
+                                    <h6 class="right" style="float: right;">95%</h6>
+                                </div>
+                            </div>
+                            <div class="skill-item-container">
+                                <div class="progress-container">
+                                    <div class="progress-bar-android"></div>
+                                </div>
+                                <div>
+                                    <h6 class="left-header" >Android</h6>
+                                    <h6 class="right-header" >90%</h6>
+                                </div>
+                               
+                            </div>
+                            <div class="skill-item-container">
+                                <div class="progress-container">
+                                    <div class="progress-bar-xamarin"></div>
+                                </div>
+                                <div>
+                                    <h6 class="left-header" >Xamarin</h6>
+                                    <h6 class="right-header" >95%</h6>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="skill-container">
+                            <div class="skill-item-container">
+                                <div class="progress-container">
+                                    <div class="progress-bar-flutter"></div>
+                                </div>
+                                <div>
+                                    <h6 class="left-header" >Flutter</h6>
+                                    <h6 class="right-header" >65%</h6>
+                                </div>
+
+                            </div>
+                            <div class="skill-item-container">
+                                <div class="progress-container">
+                                    <div class="progress-bar-react"></div>
+                                </div>
+                                <div>
+                                    <h6 class="left-header" >React</h6>
+                                    <h6 class="right-header" >50%</h6>
+                                </div>
+                            </div>
+                            <div class="skill-item-container">
+                                <div class="progress-container">
+                                    <div class="progress-bar-html"></div>
+                                </div>
+                                <div>
+                                    <h6 class="left-header" >HTML</h6>
+                                    <h6 class="right-header" >60%</h6>
+                                </div>
+
+                            </div>
+                        </div><br>
+
+                        <h3 >Certification</h3>
+                        <div >
+                        <ul class="certification">
+                            <li>Sun Certification</li> <br>
+                            <li>PMP Certification</li><br>
+                            <li>AWS Certification</li><br>
+                          </ul>
+                          </div>
+                
+                </div>
+                <div>
+                </article>
+                <article>
+                    <h1 >Experience & Education</h1>
+                    <p >Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum clita dolor duo clita sit.</p>
+                  
+                    <div class="segment-controller">
+                        <input type="radio" name="skill-type" value="experience" id="experience" />
+                        <label for="experience" checked onclick="openSkillTab(event, 'experience')">
+                            Experience
+                        </label>
+                      
+                        <input type="radio" name="skill-type" value="education" id="education" />
+                        <label for="education" onclick="openSkillTab(event, 'education')">
+                            Education
+                        </label>
+                      </div>
+
+                    <div class="tab-content">
+                        <div id="experienceTab" >
+                            <div >
+                                <div class="skilBox">
+                                    <h5>Lead Software Engineer</h5>
+                                    <hr >
+                                    <p class="educationyear" >2018 - 2022</p>
+                                    <h6 >Apex Software Inc</h6>
+                                </div>
+                                <div class="skilBox">
+                                    <h5>Senior Software Engineer</h5>
+                                    <hr >
+                                    <p class="educationyear" >2015 - 2018</p>
+                                    <h6 >Apex Software Inc</h6>
+                                </div>
+                                <div class="skilBox">
+                                    <h5>Software Engineer</h5>
+                                    <hr >
+                                    <p class="educationyear" >2013 - 2014</p>
+                                    <h6 >Apex Software Inc</h6>
+                                </div>
+                                <div class="skilBox">
+                                    <h5>Associate Software Engineer</h5>
+                                    <hr >
+                                    <p class="educationyear" >2012 - 2013</p>
+                                    <h6 >Apex Software Inc</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="educationTab" >
+                            <div >
+                                <div class="skilBox">
+                                    <h5>Master in Computer Science</h5>
+                                    <hr >
+                                    <p class="educationyear" >2014 - 2016</p>
+                                    <h6 >Cambridge University</h6>
+                                </div>
+                                <div class="skilBox">
+                                    <h5>Bachelor of Computer Science</h5>
+                                    <hr >
+                                    <p class="educationyear" >2008 - 2013</p>
+                                    <h6 >Cambridge University</h6>
+                                </div>
+                                <div class="skilBox">
+                                    <h5>Post Graduate Diploma</h5>
+                                    <hr >
+                                    <p class="educationyear" >2022 - 2024</p>
+                                    <h6 >Cambridge University</h6>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+    </div>
+</article>
+    </main>
+    <footer>
+      <div id="copyright">
+        &copy; Copyright 2023. All Rights Reserved. <br>
+        <a href="mailto:info@mpsoftwares.com">info@mpsoftwares.com</a></p>
+      </div>
+      <div id="social">
+        <p>Connect with MP Softwares in</p>
+        <p><a href="http://www.facebook.com/malsha.parami"><img src="images/fblogo.png" alt="facebook logo"></a></p>
+        <p><a href="http://www.twitter.com/malsha.parami"><img src="images/twitterlogo.png" alt="twitter logo"></a></p>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="scripts/myFunctions.js"></script>
+</body>
+</html>

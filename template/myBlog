@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>MP Softwares - Portfolio</title>
+</head>
+<body>
+
+  <div id="container">
+    <header>
+      <a href="index.html"><img src="images/mps_logo.png" alt="Malsha Logo"></a>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+
+    </main>
+
+    <footer>
+      &copy; Copyright 2023. All Rights Reserved. <br>
+      <a href="mailto:info@mpsoftwares.com">info@mpsoftwares.com</a></p>
+    </footer>
+  </div>
+
+</body>
+</html>
