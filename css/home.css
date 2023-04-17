@@ -1,5 +1,5 @@
 article {
-    background-color: #fcfcf6;
+    background-color: #c8c8bb;
     float: left;
     margin: 0.5%;
     padding: 0.5%;
@@ -32,4 +32,79 @@ article {
     color: #131212;
     font-weight: bold;
     text-decoration: none;
+  }
+
+  @media only screen and (min-width: 685px) {
+    article {
+      background-color: #c8c8bb;
+      float: left;
+      margin: 0.5%;
+      padding: 0.5%;
+      text-align: center;
+      width: 70%;
+    }
+  
+    article img {
+      border: solid 0.1em #1d1d1c;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    article p {
+      color: #000000;
+      margin-top: 2%;
+      padding: 1%;
+    }
+  
+    article h1 {
+      color: red;
+    }
+  
+    h3 {
+      color: rgb(149, 143, 143);
+      align-items: flex-start;
+    }
+  
+    li a {
+      color: #131212;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+  @media only screen and (min-width: 860px) {
+    article {
+      background-color: #c8c8bb;
+      float: left;
+      margin: 0.5%;
+      padding: 0.5%;
+      text-align: center;
+      width: 70%;
+    }
+  
+    article img {
+      border: solid 0.1em #1d1d1c;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    article p {
+      color: #000000;
+      margin-top: 2%;
+      padding: 1%;
+    }
+  
+    article h1 {
+      color: red;
+    }
+  
+    h3 {
+      color: rgb(149, 143, 143);
+      align-items: flex-start;
+    }
+  
+    li a {
+      color: #131212;
+      font-weight: bold;
+      text-decoration: none;
+    }
   }
