@@ -390,6 +390,26 @@ th {
   color: #ffffff;
 }
 
+a{
+  color: #bf1414;
+  font-weight: bold;
+
+}
+figure {
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+img.scaled {
+  width: 100%;
+}
+
 @media only screen and (min-width: 685px) {
   nav li {
     display: inline;
@@ -776,6 +796,25 @@ th {
     font-size: 20px;
     padding-left: 20px;
   }
+  a{
+    color: #c90f0f;
+    font-weight: bold;
+  
+  }
+  figure {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  img.scaled {
+    width: 100%;
+  }
 
 }
 
@@ -1138,6 +1177,29 @@ th {
   .text {
     font-size: 20px;
     padding-left: 20px;
+  }
+
+  a{
+    color: #d72222;
+    font-weight: bold;
+  
+  }
+  figure {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  img.scaled {
+    width: 100%;
+  }
+  figcaption{
+    color: white;
   }
 
 }
