@@ -366,6 +366,30 @@ li a {
   text-decoration: none;
 }
 
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+table {
+  border: 0.1em solid #000000;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+th, td {
+  border: 0.1em solid #7d7575;
+  padding: 1em;
+  text-align: center;
+}
+
+th {
+  background-color: #3f3f2a;
+  color: #ffffff;
+}
+
 @media only screen and (min-width: 685px) {
   nav li {
     display: inline;
@@ -522,13 +546,13 @@ li a {
   }
 
   th, td {
-    border: 0.1em solid #000000;
+    border: 0.1em solid #7d7575;
     padding: 1em;
     text-align: center;
   }
 
   th {
-    background-color: #1d1d1c;
+    background-color: #3f3f2a;
     color: #ffffff;
   }
 
@@ -746,6 +770,11 @@ li a {
     color: #131212;
     font-weight: bold;
     text-decoration: none;
+  }
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
   }
 
 }
@@ -1104,6 +1133,11 @@ li a {
     color: #131212;
     font-weight: bold;
     text-decoration: none;
+  }
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
   }
 
 }
