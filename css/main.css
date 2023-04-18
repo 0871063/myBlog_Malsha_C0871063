@@ -410,6 +410,20 @@ img.scaled {
   width: 100%;
 }
 
+
+#left { 
+  width:30rem
+}
+#right
+ { flex: 1 }
+ #home_left{
+  flex: 1
+}
+
+#home_right{
+  width:30rem
+}
+
 @media only screen and (min-width: 685px) {
   nav li {
     display: inline;
@@ -816,6 +830,21 @@ img.scaled {
     width: 100%;
   }
 
+
+#left { 
+  width:30rem
+}
+#right
+ { flex: 1 }
+
+#home_left{
+  flex: 1
+}
+
+#home_right{
+  width:30rem
+}
+
 }
 
 @media only screen and (min-width: 860px) {
@@ -1201,6 +1230,40 @@ img.scaled {
   figcaption{
     color: white;
   }
+
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#left { 
+  width:30rem
+}
+#right
+ { flex: 1 }
+ #home_left{
+  flex: 1
+}
+
+#home_right{
+  width:30rem
+}
 
 }
 
